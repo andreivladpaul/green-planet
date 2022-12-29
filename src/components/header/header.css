@@ -1,0 +1,12 @@
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../assets/earth.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

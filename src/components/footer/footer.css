@@ -1,0 +1,16 @@
+footer {
+    width: 100vw;
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+
+}
+footer a:first-child{
+    margin-right: 10px;
+}
+footer p{
+    margin: 0;
+}

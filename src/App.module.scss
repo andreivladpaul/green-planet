@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "node_modules/bootstrap/scss/bootstrap";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(246, 243, 243);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.App {
+  text-align: center;
+}
+
+.maincontainer {
+  width: 90%;
+  max-width: 1500px;
+  padding: 30px;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .maincontainer {
+    padding: 0;
+  }
+  body {
+    height: 100%;
+  }
+}

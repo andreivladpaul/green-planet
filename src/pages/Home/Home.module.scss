@@ -1,0 +1,30 @@
+
+.cardContainer {
+    width: 100vw;
+    padding: 10% ;
+    background-image: url("../../assets/bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cardCntTop {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.cardCntBottom {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .cardCntTop {
+        display: flex;
+        flex-direction: column;
+    }
+    .cardCntBottom {
+        display: flex;
+        flex-direction: column;
+    }
+}
